@@ -1,7 +1,7 @@
 const CONFIG = {
   // profile setting (required)
   profile: {
-    name: "Dionisius Surya Jaya",
+    name: "Dionysus",
     image: "/avatar.svg", // If you want to create your own notion avatar, check out https://notion-avatar.vercel.app
     role: "backend developer",
     bio: "Not a professional backend programmer, but I will one day!!",
@@ -18,12 +18,13 @@ const CONFIG = {
   ],
   // blog setting (required)
   blog: {
-    title: "portfolio website",
+    title: "portfolio",
     description: "welcome to my portfolio!",
+    theme: "auto", //['light','dark','auto']
   },
 
   // CONFIG configration (required)
-  link: "https://morethan-log.vercel.app",
+  link: "https://diony-sus.vercel.app",
   since: 2022, // If leave this empty, current year will be used.
   lang: "en-US", // ['en-US', 'zh-CN', 'zh-HK', 'zh-TW', 'ja-JP', 'es-ES', 'ko-KR']
   ogImageGenerateURL: "https://og-image-korean.vercel.app", // The link to generate OG image, don't end with a slash
